@@ -5,7 +5,7 @@
 % Required packages
 % =================
 \usepackage{subfig}
-\usepackage{color}
+\usepackage{xcolor}
 \usepackage{orcidlink}
 \usepackage[dvipsnames]{xcolor}
 \usepackage{accsupp}
@@ -48,6 +48,24 @@ This report tries to catalogue the INF projects in Germany's research landscape.
 Building on that and on the workshop held at the de-RSE26 conference we collect lessons learned across INF projects and distill the discussion into guides that other INF projects (or similar structures) can follow.
 }
 \keywords{INF, CRCs, DFG}
+
+
+
+% PDF/A compliance
+% ========================
+% This is an optional step to help with archiving and long-term preservation
+% of electronic documents. It stores XMP metadata, machine-readable content,
+% and color profiles in the PDF file. When used, it must appear last in the
+% preamble to avoid conflicts with other packages (the pdfx package loads
+% hyperref and xcolor).
+%\usepackage[a-3u]{pdfx}
+%\begin{filecontents}[overwrite]{\jobname.xmpdata}
+%\Author{Kim Doe}
+%\Title{My Title}
+%\Language{English}
+%\Subject{Software Science and Technology}
+%\end{filecontents}
+
 
 \begin{document}
 \maketitle
